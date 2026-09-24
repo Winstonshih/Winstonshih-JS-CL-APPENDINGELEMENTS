@@ -27,7 +27,7 @@ button.onclick = addItem;
 function addItem() {
     let listElement=document.createElement("li");
     listElement.src=input.value;
-    container.appendChild(listElement);
+    list.appendChild(listElement);
 }
 
 /* OPTIONAL PRACTICE: If you want more practice later, try dynamically removing list elements as well. */
