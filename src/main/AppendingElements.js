@@ -26,7 +26,7 @@ button.onclick = addItem;
  */
 function addItem() {
     let listElement=document.createElement("li");
-    listElement.src=input.value;
+    listElement.innerText=input.value;
     list.appendChild(listElement);
 }
 
