@@ -25,7 +25,9 @@ button.onclick = addItem;
  * Your task will be to do the same, but with the requirements specified in the TODO statement.
  */
 function addItem() {
-    // code here
+    let listElement=document.createElement("li");
+    listElement.src="list.jpg";
+    container.appendChild(listElement);
 }
 
 /* OPTIONAL PRACTICE: If you want more practice later, try dynamically removing list elements as well. */
